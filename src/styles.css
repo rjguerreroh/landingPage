@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+html, body { height: 100%; }
+
+p, a, h1, h2 {
+  font-family: Montserrat /* Replace with your custom font */, sans-serif !important; 
+  /* Add !important to overwrite all elements */
+}
+
+:root .mat-raised-button {
+  border-radius: 4px !important;
+}
+
+.text-primary{
+  color: #103056;
+}
+
+.bg-secudary{
+  background-color: #103056;
+}
+.bg-secudary{
+  background-color: #47E6C4;
+}
+
+.btn-primary{
+  background-color: #103056 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  padding: 0 50px !important;
+}
+
+.btn-secundary{
+  background-color: white !important;
+  color: black !important;
+  border-radius: 8px !important;
+  padding: 0 50px !important;
+}
+
+.btn-ico {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 8px !important;
+  padding: 0 !important;
+}

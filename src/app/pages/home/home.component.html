@@ -1,0 +1,112 @@
+<app-breadcrumbs></app-breadcrumbs>
+<div class="banner flex justify-center rounded-2xl">
+  <div class="info p-8 md:p-0 md:w-5/6 flex md:items-center">
+    <div class="banner_info_text md:w-1/2 text-white">
+      <p class="font-light">Lorem ipsum dolor sit amet</p>
+      <p class="font-extrabold text-4xl">Consectetur Adipiscing Elit Posuere</p>
+      <p class="font-sm font-extralight">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere blandit quam, himenaeos eros nunc.</p>
+      <button mat-raised-button class="btn-secundary w-full mt-6"><mat-icon>call_made</mat-icon>CLICK HERE</button>
+    </div>
+  </div>
+</div>
+
+<div class="w-5/6 mx-auto my-25 grid grid-cols-1 sm:grid-cols-3 gap-4">
+  <p class="col-span-1 sm:col-span-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatem, eveniet rerum sapiente eius reiciendis ab est vitae ex id.</p>
+  @for(card of dataCard; track $index){
+    <div class="col-span-1">
+      <app-card-img [title]="card.title" [description]="card.description" [img]="card.img"></app-card-img>
+    </div>
+  }
+</div>
+
+<div class="grid grid-cols-1 gap-4 md:grid-cols-2 card_section rounded-2xl w-5/6 mx-auto my-25 p-10" style="background-color: #47E6C4;">
+  <p class="col-span-1 md:col-span-2 font-bold text-3xl text-center">Fusce ut massa non tellus rhoncus viverra eu in dui </p>
+  <div class="col-span-1 border-2 border-solid rounded-lg p-4">
+    <div class="bg-black flex justify-center items-center rounded-full size-20 my-5" style="background-color: #103056;">
+      <img src="icons/icon-park-solid.png" alt="">
+    </div>
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere blandit quam, himenaeos eros nunc tempus nisi volutpat integer odio vel, dapibus vitae taciti mus metus tincidunt eu vestibulum.</p>
+    <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-2xl text-sm px-10 py-4 me-4 mb-2 my-5 inline-flex items-center" style="background-color: #103056;">
+      <img class="mr-3" src="icons/tabler_arrow-up-right.png" alt="" srcset="">
+      Click here
+    </button>
+  </div>
+  <div class="col-span-1 border-2 border-solid rounded-lg p-4">
+    <div class="bg-black flex justify-center items-center rounded-full size-20 my-5" style="background-color: #103056;">
+      <img src="icons/globo-icon.png" alt="">
+    </div>
+    <p>Lorem ipsum</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere blandit quam, himenaeos eros nunc tempus nisi volutpat integer odio vel, dapibus vitae taciti mus metus tincidunt eu vestibulum.</p>
+    <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-2xl text-sm px-10 py-4 me-4 mb-2 my-5 inline-flex items-center" style="background-color: #103056;">
+      <img class="mr-3" src="icons/tabler_arrow-up-right.png" alt="" srcset="">
+      Click here
+    </button>
+  </div>
+
+</div>
+
+<div class="banner-2 flex justify-center items-center">
+  <div class="w-1/2 text-white text-center">
+    <p class="font-bold text-2xl">Lorem ipsum: dolor sit amet consectetur adipiscing</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere blandit quam, himenaeos eros nunc tempus nisi volutpat integer odio vel, dapibus vitae taciti mus metus tincidunt eu vestibulum nullam.</p>
+    <button type="button" class="focus:outline-none text-black bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-2xl text-sm px-10 py-4 me-4 mb-2 my-5 inline-flex items-center" style="background-color: #47E6C4;">
+      <img class="mr-3" src="icons/tabler_arrow-up-right-dark.png" alt="" srcset="">
+      Click here
+    </button>
+  </div>
+</div>
+
+<div class="banner-3 md:flex md:w-5/6 sm:mx-auto my-15 gap-30">
+  <div class="info md:w-2/5 p-8 md:p-0">
+    <p class="font-bold text-3xl text-primary">Lorem ipsum dolor sit amet</p>
+    <p class="py-5">La mejor oportunidad que tienes para actualizar tus conocimientos.</p>
+    <img class="rounded-3xl" src="https://s3-alpha-sig.figma.com/img/a45b/d3c0/d34506ad40c052f48491f50c803effff?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MM~RugpY2N9R~Zu6XQXrxYv~7xaUDG3~o7qTZPWEBBZ1rOCKatJAEPhc8sKETX1O3HvIFJyMG3gndnYHx2Nl9nfytKDNZMsvXTfob6Ie5m5dvbBFfyfACRNVdIe4T-GjmZgoldCHwL4iDTPf-gcIXkOe45BCq7mYTMDDDEoUsnCF6MU0dWDTa88OV2fO3hMjssQUBJosYyyoNP2rmybbsr-LuS0vTmA~x92ze0BIrGbA8mDnu73t8WlpD3~2rq8tY9TA7eB0-Ms0RQkS3U5y5oX4TeyGvxASh-SMQv7QLfVnCO6EnstWwD5Foxh7-kKmNQYDbItGrEwcZ0zMuax-Sw__" style="height: 200px; width: 100%; object-fit: cover;">
+  </div>
+  <ul class="md:w-3/5 p-8 md:p-0">
+    <li class="flex items-start gap-4 border-b-1 border-gray-500 mb-4">
+      <div>
+        <div class="bg-black flex justify-center items-center rounded-full size-17 bg-secudary">
+          <img src="icons/tabler_git-pull-request.png" alt="">
+        </div>
+      </div>
+      <div class="">
+        <p class="text-2xl">Sed accumsan erat id scelerisque sodales</p>
+        <p class="text font-extralight">Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.</p>
+      </div>
+    </li>
+    <li class="flex items-start gap-4 border-b-1 border-gray-500 mb-4">
+      <div>
+        <div class="bg-black flex justify-center items-center rounded-full size-17 bg-secudary">
+          <img src="icons/tabler_user-question.png" alt="">
+        </div>
+      </div>
+      <div class="">
+        <p class="text-2xl">Sed accumsan erat id scelerisque sodales</p>
+        <p class="text font-extralight">Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.</p>
+      </div>
+    </li>
+    <li class="flex items-start gap-4 border-b-1 border-gray-500 mb-4">
+      <div>
+        <div class="bg-black flex justify-center items-center rounded-full size-17 bg-secudary">
+          <img src="icons/cuida_trophy-outline.png" alt="">
+        </div>
+      </div>
+      <div class="">
+        <p class="text-2xl">Sed accumsan erat id scelerisque sodales</p>
+        <p class="text font-extralight">Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.</p>
+      </div>
+    </li>
+    <li class="flex items-start gap-4 border-b-1 border-gray-500 mb-4">
+      <div>
+        <div class="bg-black flex justify-center items-center rounded-full size-17 bg-secudary">
+          <img src="icons/tabler_users-group.png" alt="">
+        </div>
+      </div>
+      <div class="">
+        <p class="text-2xl">Sed accumsan erat id scelerisque sodales</p>
+        <p class="text font-extralight">Aliquam vulputate magna in viverra mattis. Aliquam volutpat dui fringilla leo posuere, sed facilisis tortor consequat.</p>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,17 @@
+.banner {
+  height: 500px;
+  background-image: 
+    linear-gradient(to right, #103056, transparent),
+    url('https://s3-alpha-sig.figma.com/img/db07/c45d/4a14d3a97d9dd3a70807ef3d359286c8?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Ay0enPYgXLClnvHD80c6nPXgGRSd9qs0BkXt0w6cjV5UwUkb1aMX4jeWl8JZsTCG42h44jSy7tjyuRBh1pvbe-gxya80xPmLSOJHB~NS~~F~nQ9MDIK~JPHnnBUS48g5JQ0as9vTSI22O8oQCEC-eMBQX29mDq-8vxQh-k7EaiIDX022yQpmgIJgQX2-q~vfLyyAjVN63mKV5DEyjqztBounDXPkfK5c7u4QCJzB~dW7L-KJOkXF1w3DRtwFyUm7yhnvvNFlhZ-VmCHoa--94xyWWbewjH45tZ8VbWM6uVNuFsImesTEka3tEMTQWzG0a62BQd2aJoQZjHTt3qebZQ__');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-2 {
+  height: 500px;
+  background-image: 
+    radial-gradient(circle at center, transparent, #103056),
+    url('https://s3-alpha-sig.figma.com/img/803d/bba9/cbba05e802a8be0d34d5e889daf6f539?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=IZ4BRg9JrsWPAZqM6k5GShS8~CL4Nf10XvuvgHcdQCv4AQcFm4fRknK-p-LuZfFMA0YMJQuzjC1XqfmmvKi6Yj4Rx0uNkRv07HoloK4nJZ0FUxNQaEre6oLI9q0DvT82TfQvkVQKEof2tYzGe48yE0nhmRpajf7q~hJRBgYqlQHNBRXN7QF50~qXbwXhEjEYd2qt-munKrTyb2R2djU6maH3aKFood7Ew5uETsCga3wKDk60V3vcO-fJrt42nZs7G1e1l5SOSwIC8gMshr~M1JCkh7Wnf~CLijn0Km~mprjeEQmpKWr7828cmBJF-wKNOUg4WjS1dUFIZpGBKllQLQ__');
+  background-size: cover;
+  background-position: center;
+}
