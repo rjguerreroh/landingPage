@@ -17,7 +17,7 @@ p, a, h1, h2 {
   color: #103056;
 }
 
-.bg-secudary{
+.bg-primary{
   background-color: #103056;
 }
 .bg-secudary{
@@ -33,6 +33,13 @@ p, a, h1, h2 {
 
 .btn-secundary{
   background-color: white !important;
+  color: black !important;
+  border-radius: 8px !important;
+  padding: 0 50px !important;
+}
+
+.btn-tertiary{
+  background-color:#47E6C4 !important;
   color: black !important;
   border-radius: 8px !important;
   padding: 0 50px !important;
